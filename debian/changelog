@@ -1,17 +1,29 @@
-libpod-constants-perl (0.14-1) unstable; urgency=low
+libpod-constants-perl (0.15_01) unstable; urgency=low
+
+  * Test upload to CPAN - to see how development releases work
+
+ -- Sam Vilain <sam@vilain.net>  Tue,  4 May 2004 15:07:34 +1200
+
+libpod-constants-perl (0.15) unstable; urgency=low
+
+  * pcvs test build version 0.15
+
+ -- Sam Vilain <sam@vilain.net>  Fri,  1 Aug 2003 23:38:13 +0100
+
+libpod-constants-perl (0.14) unstable; urgency=low
 
   * Re-entrancy fix
   * CR/LF fix
 
  -- Sam Vilain <sam@vilain.net>  Mon,  8 Apr 2002 18:44:20 +0100
 
-libpod-constants-perl (0.13-1) unstable; urgency=low
+libpod-constants-perl (0.13) unstable; urgency=low
 
   * Bug fix for perl 5.005
 
  -- Sam Vilain <sam@hoffman.vilain.net>  Mon, 28 Jan 2002 16:18:41 +0000
 
-libpod-constants-perl (0.12-1) unstable; urgency=low
+libpod-constants-perl (0.12) unstable; urgency=low
 
   * Initial Release as debian package
 

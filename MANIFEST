@@ -1,5 +1,5 @@
 Changes
-Constants.pm
+lib/Pod/Constants.pm
 Makefile.PL
 MANIFEST
 README
@@ -12,3 +12,4 @@ debian/rules
 debian/changelog
 debian/README.Debian
 debian/copyright
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -4,6 +4,9 @@
 
 package Pod::Constants;
 
+use vars qw($VERSION);
+$VERSION = "0.15_01";
+
 =head1 NAME
 
 Pod::Constants - Include constants from POD
@@ -28,7 +31,7 @@ Pod::Constants - Include constants from POD
  # This is an example of using a closure.  $_ is set to the
  # contents of the paragraph.  In this example, "eval" is
  # used to execute this code at run time.
- $VERSION = 0.15;
+ $VERSION = "0.15_01";
 
  =head2 Some list
 

@@ -1,5 +1,5 @@
-Pod::Constants version 0.15
-===========================
+Pod::Constants version 0.15_01
+==============================
 
 Pod::Constants allows you to extract data from your POD at run-time,
 meaning you can do things like declare constants in POD and not have
