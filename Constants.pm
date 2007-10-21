@@ -1,11 +1,9 @@
-# Copyright (C) 2001 Sam Vilain.  All Rights Reserved.  This module is
-# free software. It may be used, redistributed and/or modified under the
-# terms of the Perl Artistic License
+# Copyright (C) 2001, 2002, 2007 Sam Vilain.  All Rights Reserved.
+# This module is free software. It may be used, redistributed and/or
+# modified under the terms of the Perl Artistic License, version 2 or
+# later, OR the terms of the GNU General Public License, v3 or later.
 
 package Pod::Constants;
-
-use vars qw($VERSION);
-$VERSION = "0.15_01";
 
 =head1 NAME
 
@@ -31,7 +29,7 @@ Pod::Constants - Include constants from POD
  # This is an example of using a closure.  $_ is set to the
  # contents of the paragraph.  In this example, "eval" is
  # used to execute this code at run time.
- $VERSION = "0.15_01";
+ $VERSION = 0.16;
 
  =head2 Some list
 
@@ -480,7 +478,7 @@ method seems to break dh-make-perl.
 
 =head1 AUTHOR
 
-Sam Vilain, <perl@snowcra.sh>
+Sam Vilain, <samv@cpan.org>
 
 =head1 BUGS/TODO
 
@@ -495,6 +493,15 @@ Would this be useful?
  Pod::Constants::import(Foo::SECTION => \$myvar);
 
 Debug output is not very readable
+
+=head1 PATCHES WELCOME
+
+If you have any suggestions for enhancements, they are much more likely
+to happen if you submit them as a patch to the distribution.
+
+Source is kept at
+
+  git://utsl.gen.nz/Pod-Constants 
 
 =cut
 
